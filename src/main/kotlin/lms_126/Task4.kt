@@ -1,7 +1,7 @@
 package lms_126
 
 fun task4(): String {
-// Got help from a classmate to solve this.
+// Got help from a classmate to solve this. But instead of using (<) I wrote it out in text.
     return """
         INPUT value of number x
         IF x is less than y
