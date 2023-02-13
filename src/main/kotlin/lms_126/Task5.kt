@@ -7,28 +7,28 @@ fun task5(): String {
     return """
        // Starting with 1 as monday
        INPUT X
-       if val is 1
+       IF val is 1
        OUTPUT Monday
-       
-       if val is 2 
+       ELSE
+       IF val is 2 
        OUTPUT Tuesday
-       
-       if val is 3
+       ELSE
+       IF val is 3
        OUTPUT Wednesday
-       
-       if val is 4
+       ELSE
+       IF val is 4
        OUTPUT Thursday 
-         
-         if val is 5
+         ELSE
+         IF val is 5
          OUTPUT Friday
-         
-         if val is 6
+         ELSE
+         IF val is 6
          OUTPUT Saturday
-         
-         if val is 7
+         ELSE
+         IF val is 7
          OUTPUT Sunday
-         
-         if val is 8
+         ELSE
+         IF val is 8
          OUTPUT Error
     """
 }
