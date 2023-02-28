@@ -3,11 +3,11 @@ package lms_127
 fun task1() {
     val country = "Sweden"
     val capital = "stockholm"
-    val currency = "Kronor or SEK"
+    val currency = "Kronor/SEK"
 
-    println("$country")
-    println("$capital")
-    println("$currency")
+    println("Country: $country")
+    println("Capital: $capital")
+    println("Currency $currency")
 
 }
 fun main() {
