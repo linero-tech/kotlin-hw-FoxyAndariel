@@ -8,6 +8,9 @@ val result = 2.0 * radius * 3.1416
 }
 
 fun main() {
-   val result = task3(radius = 2.0)
-    println(result)
+
+    println(task3(radius = 2.0)) //12.57
+    println(task3(radius = 0.0)) //00.00
+    println(task3(radius = 20.0)) //125.664
+    println(task3(radius = 1.0)) //6.28
 }
