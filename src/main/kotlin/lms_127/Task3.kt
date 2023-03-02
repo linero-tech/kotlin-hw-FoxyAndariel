@@ -1,6 +1,17 @@
 package lms_127
 
-fun task3(radius: Double): Double {
+fun task3() {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    return
 }
+
+fun main() {
+
+    // Arithmetics with Kotlin (exercise video)
+
+    val length = 10
+    val areaOfSquare = length * length
+    val perimeterOfSquare = length * 4
+    println("The area of the square is $areaOfSquare and its perimeter $perimeterOfSquare")
+}
+radius: Double): Double
