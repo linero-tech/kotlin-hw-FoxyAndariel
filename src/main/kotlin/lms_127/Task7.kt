@@ -1,9 +1,12 @@
 package lms_127
 
-fun task7(sentence: String): Int {
-    val result = sentence.length
 
-    return result
+fun task7(sentence: String): Int {
+/*Inline means to make the same result using fewer lines so instead of for example 2 lines
+   we only use 1 line */
+
+    
+    return sentence.length
 }
 
 fun main(){
