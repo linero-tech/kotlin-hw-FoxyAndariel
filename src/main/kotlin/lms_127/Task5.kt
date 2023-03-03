@@ -8,7 +8,7 @@ fun task5(valueForA: Int, valueForB: Int): Pair<Int, Int> {
      val temporary = a
     a = b
     b = temporary
-    
+
 
     // Do not erase or change this statement
     return Pair(a, b)
@@ -16,6 +16,9 @@ fun task5(valueForA: Int, valueForB: Int): Pair<Int, Int> {
 }
 
 fun main(){
-    println(task5(valueForA = 10, valueForB = 30 ))
+    println(task5(valueForA = 1, valueForB = 2 ))
+    println(task5(valueForA = 10, valueForB = 20 ))
+    println(task5(valueForA = 20, valueForB = 30 ))
+    println(task5(valueForA = 30, valueForB = 40 ))
 
 }
