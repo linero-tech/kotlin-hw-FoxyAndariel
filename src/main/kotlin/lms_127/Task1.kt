@@ -7,7 +7,7 @@ fun task1() {
 
     println("Country: $country")
     println("Capital: $capital")
-    println("Currency $currency")
+    println("Currency: $currency")
 
 }
 fun main() {

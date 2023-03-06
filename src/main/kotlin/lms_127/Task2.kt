@@ -8,7 +8,7 @@ fun task2() {
       val country = "Sweden"
       val month = "July"
 
-     println("Hello $name, you are from $country and you where born in $month")
+     println("Hello $name, you are from $country and you were born in $month")
 
 }
 fun main(){
