@@ -21,7 +21,10 @@ fun task10_4(assessments: String): String {
 }
 
 fun main(){
-    
+    println(task10_1(assessments = "LMHHF"))
+    println(task10_2(assessments = "H"))
+    println(task10_3(assessments = "F"))
+    println(task10_4(assessments = "LMF"))
     return
 
 }
